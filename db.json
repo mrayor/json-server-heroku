@@ -1,19 +1,429 @@
 {
-  "posts": [
+  "appliances": [
     {
       "id": 0,
-      "title": "First post!",
-      "content": "My first content!"
+      "name": "Blender",
+      "units": 500
+    },
+    {
+      "id": 1,
+      "name": "Can Opener",
+      "units": 150
     },
     {
       "id": 2,
-      "title": "Second post!",
-      "content": "My second content!"
+      "name": "Coffee Machine",
+      "units": 1000
     },
     {
       "id": 3,
-      "title": "Third post!",
-      "content": "My third content!"
+      "name": "Dish Washer",
+      "units": 1200
+    },
+    {
+      "id": 4,
+      "name": "Espresso Machine",
+      "units": 800
+    },
+    {
+      "id": 5,
+      "name": "Freezer - Upright - 15 cu. ft.",
+      "units": 1240
+    },
+    {
+      "id": 6,
+      "name": "Freezer - Chest - 15 cu. ft.",
+      "units": 1080
+    },
+    {
+      "id": 7,
+      "name": "Fridge - 20 cu. ft. (AC)",
+      "units": 1411
+    },
+    {
+      "id": 8,
+      "name": "Fridge - 16 cu. ft. (AC)",
+      "units": 1200
+    },
+    {
+      "id": 9,
+      "name": "Garbage Disposal",
+      "units": 450
+    },
+    {
+      "id": 10,
+      "name": "Kettle - Electric",
+      "units": 1200
+    },
+    {
+      "id": 11,
+      "name": "Microwave",
+      "units": 1000
+    },
+    {
+      "id": 12,
+      "name": "Oven - Electric",
+      "units": 1200
+    },
+    {
+      "id": 13,
+      "name": "Toaster",
+      "units": 850
+    },
+    {
+      "id": 14,
+      "name": "Toaster Oven",
+      "units": 1200
+    },
+    {
+      "id": 15,
+      "name": "Stand Mixer",
+      "units": 300
+    },
+    {
+      "id": 16,
+      "name": "Box Fan",
+      "units": 200
+    },
+    {
+      "id": 17,
+      "name": "Ceiling Fan",
+      "units": 120
+    },
+    {
+      "id": 18,
+      "name": "Central Air Conditioner - 24,000 BTU NA",
+      "units": 3800
+    },
+    {
+      "id": 19,
+      "name": "Central Air Conditioner - 22,000 BTU NA",
+      "units": 3700
+    },
+    {
+      "id": 20,
+      "name": "Central Air Conditioner - 10,000 BTU NA",
+      "units": 3250
+    },
+    {
+      "id": 21,
+      "name": "Furnace Fan Blower",
+      "units": 800
+    },
+    {
+      "id": 22,
+      "name": "Space Heater NA",
+      "units": 1500
+    },
+    {
+      "id": 23,
+      "name": "Tankless Water Heater - Electric",
+      "units": 18000
+    },
+    {
+      "id": 24,
+      "name": "Water Heater - Electric",
+      "units": 4500
+    },
+    {
+      "id": 25,
+      "name": "Window Air Conditioner 10,000 BTU NA",
+      "units": 900
+    },
+    {
+      "id": 26,
+      "name": "Window Air Conditioner 12,000 BTU NA",
+      "units": 1200
+    },
+    {
+      "id": 27,
+      "name": "Well Pump - 1/3 1HP",
+      "units": 750
+    },
+    {
+      "id": 28,
+      "name": "Clothes Dryer - Electric",
+      "units": 3000
+    },
+    {
+      "id": 29,
+      "name": "Clothes Dryer - Gas",
+      "units": 1800
+    },
+    {
+      "id": 30,
+      "name": "Clothes Washer",
+      "units": 800
+    },
+    {
+      "id": 31,
+      "name": "Iron",
+      "units": 1200
+    },
+    {
+      "id": 32,
+      "name": "Bluray Player",
+      "units": 15
+    },
+    {
+      "id": 33,
+      "name": "DVD Player",
+      "units": 15
+    },
+    {
+      "id": 34,
+      "name": "Cable Box",
+      "units": 35
+    },
+    {
+      "id": 35,
+      "name": "TV - LCD",
+      "units": 150
+    },
+    {
+      "id": 36,
+      "name": "TV - Plasma",
+      "units": 200
+    },
+    {
+      "id": 37,
+      "name": "Stereo Receiver",
+      "units": 450
+    },
+    {
+      "id": 38,
+      "name": "Satellite Dish",
+      "units": 25
+    },
+    {
+      "id": 39,
+      "name": "Video Game Console",
+      "units": 150
+    },
+    {
+      "id": 40,
+      "name": "CFL Bulb - 40 Watt Equivalent",
+      "units": 11
+    },
+    {
+      "id": 41,
+      "name": "CFL Bulb - 60 Watt Equivalent",
+      "units": 18
+    },
+    {
+      "id": 42,
+      "name": "CFL Bulb - 75 Watt Equivalent",
+      "units": 20
+    },
+    {
+      "id": 43,
+      "name": "CFL Bulb - 100 Watt Equivalent",
+      "units": 30
+    },
+    {
+      "id": 44,
+      "name": "Compact Fluorescent 20 Watt",
+      "units": 22
+    },
+    {
+      "id": 45,
+      "name": "Compact Fluorescent 25 Watt",
+      "units": 28
+    },
+    {
+      "id": 46,
+      "name": "Halogen - 40 Watt",
+      "units": 40
+    },
+    {
+      "id": 47,
+      "name": "Incandescent 50 Watt",
+      "units": 50
+    },
+    {
+      "id": 48,
+      "name": "Incandescent 100 Watt",
+      "units": 100
+    },
+    {
+      "id": 49,
+      "name": "LED Bulb - 40 Watt Equivalent",
+      "units": 10
+    },
+    {
+      "id": 50,
+      "name": "LED Bulb - 60 Watt Equivalent",
+      "units": 13
+    },
+    {
+      "id": 51,
+      "name": "LED Bulb - 75 Watt Equivalent",
+      "units": 18
+    },
+    {
+      "id": 52,
+      "name": "LED Bulb - 100 Watt Equivalent",
+      "units": 23
+    },
+    {
+      "id": 53,
+      "name": "Desktop Computer (Standard)",
+      "units": 200
+    },
+    {
+      "id": 54,
+      "name": "Desktop Computer (Gaming)",
+      "units": 500
+    },
+    {
+      "id": 55,
+      "name": "Laptop",
+      "units": 100
+    },
+    {
+      "id": 56,
+      "name": "LCD Monitor",
+      "units": 100
+    },
+    {
+      "id": 57,
+      "name": "Modem",
+      "units": 7
+    },
+    {
+      "id": 58,
+      "name": "Paper Shredder",
+      "units": 150
+    },
+    {
+      "id": 59,
+      "name": "Printer",
+      "units": 100
+    },
+    {
+      "id": 60,
+      "name": "Router",
+      "units": 7
+    },
+    {
+      "id": 61,
+      "name": "Tablet - Recharge",
+      "units": 8
+    },
+    {
+      "id": 62,
+      "name": "Smart Phone - Recharge",
+      "units": 6
+    },
+    {
+      "id": 63,
+      "name": "Band Saw - 14\"",
+      "units": 1100
+    },
+    {
+      "id": 64,
+      "name": "Belt Sander - 3\"",
+      "units": 1000
+    },
+    {
+      "id": 65,
+      "name": "Chain Saw - 12\"",
+      "units": 1100
+    },
+    {
+      "id": 66,
+      "name": "Circular Saw - 7-1/4\"",
+      "units": 900
+    },
+    {
+      "id": 67,
+      "name": "Circular Saw - 8-1/4\"",
+      "units": 1400
+    },
+    {
+      "id": 68,
+      "name": "Disc Sander - 9\"",
+      "units": 1200
+    },
+    {
+      "id": 69,
+      "name": "Drill - 1/4\"",
+      "units": 250
+    },
+    {
+      "id": 70,
+      "name": "Drill - 1/2\"",
+      "units": 750
+    },
+    {
+      "id": 71,
+      "name": "Drill - 1\"",
+      "units": 1000
+    },
+    {
+      "id": 72,
+      "name": "Hedge Trimmer",
+      "units": 450
+    },
+    {
+      "id": 73,
+      "name": "Weed Eater",
+      "units": 500
+    },
+    {
+      "id": 74,
+      "name": "Clock Radio",
+      "units": 7
+    },
+    {
+      "id": 75,
+      "name": "Curling Iron",
+      "units": 150
+    },
+    {
+      "id": 76,
+      "name": "Dehumidifier",
+      "units": 280
+    },
+    {
+      "id": 77,
+      "name": "Electric Shaver",
+      "units": 15
+    },
+    {
+      "id": 78,
+      "name": "Electric Blanket",
+      "units": 200
+    },
+    {
+      "id": 79,
+      "name": "Hair Dryer",
+      "units": 1500
+    },
+    {
+      "id": 80,
+      "name": "Humidifier",
+      "units": 200
+    },
+    {
+      "id": 81,
+      "name": "Radiotelephone - Receive",
+      "units": 5
+    },
+    {
+      "id": 82,
+      "name": "Radiotelephone - Transmit",
+      "units": 75
+    },
+    {
+      "id": 83,
+      "name": "Sewing Machine",
+      "units": 100
+    },
+    {
+      "id": 84,
+      "name": "Vacuum",
+      "units": 1000
     }
   ]
 }
